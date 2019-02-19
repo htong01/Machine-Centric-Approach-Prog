@@ -1,0 +1,39 @@
+
+# 1.
+What are the three problems the book outlines with C-style error handling?
+(string) ---
+Easy to forget. 
+Clutters up the code.
+No additional information about what went wrong.
+
+# 2.
+In C++, we can throw:
+(select one) ---
+[ ] Only messages (const char*)
+[ ] Only a subclass of std::exception
+[ ] Only std::exception
+[ ] Only std::exception or a subclass
+[ ] Any object, but we should use std::exception or a subclass
+[ T] Any object
+
+
+# 3.
+What happens if an exception is thrown while unwinding the stack (i.e., while trying to handle another exception)?
+(string) ---
+Unexpected() function is called.
+
+# 4.
+What is the problem with the code on the right side at the beginning of section 19.7? (i.e., what is it about the code that means it makes no exception guarantees?)
+
+Note that there is an error in the text -- the code on the *right* makes no exception guarantees (like the heading says), while the code on the left makes a strong guarantee.
+(string) ---
+Code on right can not handle some corner situation at all. It not provide a basic exception guarantee.
+
+# 5.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 6.
+What concepts would you most like to review in class?
+(string) ---

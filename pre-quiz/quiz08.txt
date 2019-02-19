@@ -1,0 +1,30 @@
+# 1.
+Why is the recusive implementation of the Fibonacci function slow?
+(string) ---
+It keep doing the work that already been done previously. f(n) calls f(n-1) and f(n-2), also f(n-1) calls f(n-2) and f(n-3), until the base case 0 and 1. Too many repeated works.
+
+# 2.
+What language does one of the authors of the book particularly like?
+(select one) ---
+[ ] C/C++
+[ ] Java
+[ ] Python
+[ ] Haskell
+[ T] SML
+
+# 3.
+What is important about tail recursion?
+(select one) ---
+[ ] Tail-recursive functions are faster than head-recursive ones.
+[ ] Nothing happens in a tail recursive function, so it can be optimized out by the compiler.
+[ T] Tail-recursive functions can be transformed into while loops.
+[ ] Animals have tails, too.
+
+# 4.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 5.
+What concepts would you most like to review in class?
+(string) ---

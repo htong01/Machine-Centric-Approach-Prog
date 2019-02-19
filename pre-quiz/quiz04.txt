@@ -1,0 +1,77 @@
+# 1.
+Given these declarations:
+
+  int oats;
+  int *wheat;
+  int **barley;
+
+What is the type of the expressions below?  If they are invalid, say so.
+
+  &oats
+  *wheat
+  *oats
+  **barley
+  &wheat
+  *barley
+  **wheat
+
+(string) ---
+int*
+int
+invalid
+int
+int**
+int*
+invalid
+
+# 2.
+Given the same declarations:
+
+  int oats;
+  int *wheat;
+  int **barley;
+
+Which of the following statements are legal?
+
+  oats = 5;
+  barley = &oats;
+  *wheat = 5;
+  barley = &wheat;
+(string) ---
+1, 3, 4
+
+# 3.
+Given the declarations below:
+
+  const int rice;
+  const int* maize;
+  const int const *millet; 
+
+Which of the following are legal?
+
+  rice = 5;
+  maize = &rice;
+  *maize = 5;
+  millet = &rice;
+  int * const quinoa = &rice;
+
+(string) ---
+2, 4, 5
+
+# 4.
+What happens if I execute the code below? (Try it if you're not sure!)
+  int rye = 5;
+  int* rye_p = NULL;
+  *rye_p = rye;
+
+(string) ---
+Will cause segmentation error. Since the pointer of NULL represent the blank space and can't be allocated.
+
+# 5.
+What questions do you have about the material in this chapter?
+(string) ---
+Still find confusing about int, int* and int**. Also what can be changed and cannot be changed after the const at different position.
+
+# 6.
+What concepts would you most like to review in class?
+(string) ---

@@ -1,0 +1,80 @@
+# 1.
+Which of these are valid variable names?
+(choose all that apply) ---
+[ T] puffin
+[ F] 2can
+[ T] SEAGULL
+[ T] red-headed-woodpecker
+[ T] owl0_0
+[ T] _pelican_
+[ T] __FLAMINGO__
+
+# 2.
+What is an lvalue?
+(string) ---
+Memory location which identifies an object when assigns an statement.
+
+# 3.
+What is the result of 25 % 3 ?
+(string) ---
+1
+
+# 4.
+The following questions refer to this code block:
+
+    int doStuff(int start, int stop)
+    {
+        int x = 5;
+        if(start < stop){
+            int x = 0;
+            printf("#1: x = %d\n", x);
+        }
+        printf("#2: x = %d\n", x);
+    }
+
+    int main()
+    {
+        int x = 1000;
+        doStuff(2, 10);
+        printf("#3: x = %d\n", x);
+    }
+
+What value will be printed for printf #1?
+(integer) ---
+#1: x = 0
+
+# 5.
+What value will be printed for printf #2?
+(integer) ---
+#2: x = 5
+
+# 6.
+What value will be printed for printf #3?
+(integer) ---
+#3: x = 1000
+
+# 7.
+Why do switch/case statements use the keyword `break`, but if/else statements do not?
+(string) ---
+Switch/case statements need ‘break’ to end the current case. While if/else can end execution if not meet the requirement.
+
+# 8.
+What is the difference between a while and do-while loop (besides the fact that a do-while begins with the keyword `do`)?
+(string) ---
+While loop checks its conditional expression at the top of the loop, do-while loop checks it at the bottom.
+
+# 9.
+Which keyword can only be used inside a loop?
+(string) ---
+'break'
+
+# 10.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 11.
+What concepts would you most like to review in class?
+(string) ---
+
+

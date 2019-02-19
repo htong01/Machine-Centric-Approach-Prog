@@ -1,0 +1,54 @@
+
+# 1.
+What is the return type of the constructor for the class Cheesecake?
+(select one) ---
+[ ] void
+[ ] void*
+[ ] Cheesecake
+[ ] Cheesecake*
+[ ] Cheesecake&
+[ T] It has no return type
+
+# 2.
+When is a class destructor called?
+(select all that apply) ---
+[ T] When an instance of that class goes out of scope
+[ ] When a pointer of an instance of the class goes out of scope
+[ T] When a pointer to a dynamically-allocated instance is cleaned up with `delete`
+[ ] When a pointer to a dynamically-allocated instance is cleaned up with `free`
+[ ] When there are no more valid references to the object
+
+# 3.
+What is the "rule of three"?
+(string) ---
+If you write a destructor, copy constructor, or assignment operator in a class, you must write all three of them.
+
+
+# 4.
+Why does the book encourage the use of the keyword `explicit`?
+(string) ---
+Help you to realize that you have passed a wrong data type. Also avoid function overloading.
+
+# 5.
+Why can't the << stream operator for MyClass be defined inside of MyClass?
+(select one)
+[ ] Because it must be a class member of ostream instead
+[ T] Because it must take an ostream as the first argument, not a MyClass
+[ ] Because the method must be static
+[ ] Because the method needs access to ostream
+[ ] Because the operator<< method must be part of the std namespace
+[ ] This is nonsense; it works just fine inside of MyClass.
+
+# 6.
+How does C++ resolve the problem in #5?
+(string) ---
+Allowing a class to declare functions of class as its friend.
+
+# 7.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 8.
+What concepts would you most like to review in class?
+(string) ---

@@ -1,0 +1,38 @@
+As you might guess, the classwork associated with this reading will be to build a linked-list class, much like your Array class.  You might want to get started on it as you read through the chapter.
+
+# 1.
+Having a class contain an instance of itself is legal if:
+(select one) ---
+[ ] The class is POD
+[ ] Shorthand for the class is declared before the definition, so the compiler is aware of the type
+[ ] The class is abstract (pure virtual)
+[ T] It's never legal; a class can only contain pointers to instances of the same class
+[ ] It's never legal; a class cannot refer to itself, period.
+
+# 2.
+The book describes several optimizations for linked lists, which make certain operations much faster (e.g., O(1) rather than O(N)).  Give at least two of them.
+(string) ---
+Tail pointer.
+Add a field to remember how many elements in list.
+
+# 3.
+Why does the first code example in Section 21.4 have a Big-O runtime of O(N)?
+(string) ---
+Need O(N) to get each element. Total N elements which takes O(N^2)
+
+# 4.
+Why do the authors use a template in the code last example in Section 21.3.5?
+(select one) ---
+[ ] It increases the speed of the removal
+[ ] It reduces code duplication
+[ T] So the code can accept multiple types
+[ ] Because they just want to show off
+
+# 5.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 6.
+What concepts would you most like to review in class?
+(string) ---

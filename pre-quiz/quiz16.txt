@@ -1,0 +1,33 @@
+
+# 1.
+What is worse than exponential time?
+(string) ---
+Factorial time.
+
+# 2.
+How does std::vector achieve an amortized runtime of O(1) for appending to an array?
+(string) ---
+Only have push or pop operation for stack. Which takes linear time.
+
+# 3.
+What are the O(N^2) sorts discussed in chapter 26?
+(string) ---
+Bubble sort, insertion sort and selection sort.
+
+# 4.
+Which sorting algorithm is the fastest on large arrays?
+(select one) ---
+[ ] Bubble sort
+[ ] Heap sort
+[ ] Mergesort
+[ T] Quicksort
+[ ] It depends
+
+# 5.
+What questions do you have about the material from these readings?
+(string) ---
+
+
+# 6.
+What concepts would you most like to review in class?
+(string) ---

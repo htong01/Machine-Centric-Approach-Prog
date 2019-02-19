@@ -1,0 +1,62 @@
+# 1.
+Which are valid ways to declare an array?
+(choose all that apply) ---
+[ T] int kiwi[3];
+[ T] int banana[4] = {1, 3, 5, 7};
+[ T] int watermelon[] = {2, 4, 6};
+[ F] int orange[3] = {2, 3};
+[ F] int peach[3] = {5, 10, 15, 20};
+
+# 2.
+What is a dangling pointer?
+(string) ---
+Pointer to array after function returns will be deallocated. Such pointer is dangling pointer.
+
+# 3.
+If we have the declaration
+  char pear[100];
+
+What is the result of sizeof(pear[1])?
+(choose 1) ---
+[ T] 1
+[ ] 2
+[ ] 4
+[ ] 100
+[ ] It depends on the architecture/compiler
+
+# 4.
+Given the same declaration, what is the result of sizeof(pear)?
+(choose 1) ---
+[ ] 1
+[ ] 2
+[ ] 4
+[ T] 100
+[ ] It depends on the architecture/compiler
+
+# 5.
+If we have the declaration
+  int grape[10];
+  int* raisin = grape;
+
+Which of the following are valid accesses of the array (i.e., not off the ends or otherwise invalid)?
+
+(choose all that apply) ---
+[ T] grape[0]
+[ T] grape[1]
+[ F] grape[10]
+[ F] grape[11]
+[ T] *raisin
+[ F] *raisin[2]
+[ T] *(raisin+2)
+[ F] raisin[2]
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---
+
+

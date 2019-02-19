@@ -1,0 +1,42 @@
+# 1.
+What does the book say is the difference between a class and a struct?
+(string) ---
+The default access control of its members. For class, default access is private. While for struct, it is public.
+
+# 2.
+What is "this" in C++?
+(string) ---
+A pointer to the object that the method is being called on.
+
+# 3.
+How do you dereference a reference?
+(choose one) ---
+[ ] Using the * operator, just like a pointer
+[ ] Using the & operator, because a reference is kind of the opposite of a pointer
+[ ] Using the ^_^ operator
+[ ] It depends on whether the reference is const or not
+[ T] You don't dereference references in C++.
+
+# 4.
+References are different from pointers because:
+(choose all that apply) ---
+[ ] References do not necessarily have to refer to lvalues
+[ ] References require copying a whole object, while pointers do not
+[ T] Pointers can be reassigned, but references are permanently assigned when initialized
+[ ] Only references can be const in C++
+[ T] References cannot be dereferenced with the [] operator
+
+# 5.
+C only allows a single function with a given name, but the book describes several  mechanisms in C++ which allow multiple functions to have the same name.  Describe at least two of these.
+(string) ---
+Function overloading. Naming with different argument/parameter types.
+Name magling. To adjust function names to encode parameter type information so that each name is unique.
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

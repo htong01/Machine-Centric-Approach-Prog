@@ -1,0 +1,31 @@
+Heaps and priority queues
+
+# 1.
+A heap is:
+(select all that apply) ---
+[ ] Unstructured memory
+[✔️] An array or vector
+[✔️] A binary tree
+[ ] A full binary tree
+[ ] A binary search tree
+
+# 2.
+How does a heap maintain its completeness?
+(string) ---
+By only swaps nodes and leaving the tree structure unchanged.
+
+# 3.
+Read the documentation for the std::priority_queue type: http://www.cplusplus.com/reference/queue/priority_queue/
+
+What is the default type used to store the priority queue?
+(string) ---
+Vector.
+
+# 4.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 5.
+What concepts would you most like to review in class?
+(string) ---

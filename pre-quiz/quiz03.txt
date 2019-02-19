@@ -1,0 +1,91 @@
+
+# 1.
+What are the steps to writing code, as described by All of Programming?
+(string) ---
+Planning first to figure out the structure and algorithms may used in the program, then coding.
+
+# 2.
+Expand the macro in the code below, and explain why it causes a compile error ("expected expression before '=' token").
+
+#define THRESHOLD = 10;
+
+void f(int x)
+{
+  if(x > THRESHOLD){
+    printf("x is too big!\n");
+  }
+}
+
+(string) ---
+#define THRESHOLD 10
+
+void f(int x)
+{
+  if(x > 10){
+    printf("x is too big!\n");
+  }
+}
+For macro definition, '#define symbol definition'. When the progress see symbol, it expand the macro to its symbol. So there is no need to use '=' for the definition.
+
+# 3.
+What is the difference between white box testing and black box testing?
+(string) ---
+Black box testing only consider the expected behavior of function without any implementation details. While white box testing starts with checking the code to devise test cases.
+
+# 4.
+What is an "assert" and why is it useful?
+(string) ---
+"Assert" is the statement used to check whether the invariants are always true to maintain the execution of program.
+
+# 5.
+Write test cases to exercise all of the possible code paths in the function below:
+
+int f(int x, int y)
+{
+  int retval = 0;
+
+  if(x >= 0){
+    retval = x;
+  }
+  else{
+    retval = -x;
+  }
+
+  if(y > retval)
+  {
+    retval += y;
+  }
+  else{
+    retval -= y;
+  }
+
+  return(retval);
+}
+
+(code) ---
+int main(int argc){
+
+  if (f(5,10) == 10){
+    printf("test pass");
+  }
+  if (f(5,3) == 2){
+    printf("test pass");
+  }
+  if (f(-1,10) == 11){
+    printf("test pass");
+  }
+  if (f(-1,-1) == 0){
+    printf("test pass");
+  }
+
+return 0;
+}
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

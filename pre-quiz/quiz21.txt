@@ -1,0 +1,43 @@
+Multithreading and synchronization (Chapter 28)
+
+# 1. 
+Which of these are implications of Amdahl's law?
+(select all that apply) ---
+[ ] Developers should not worry about performance until it is a problem
+[✔️] If only half of the code can be made parallel, then the maximum overall speedup is 2X.
+[✔️] Developers should make the common case fast
+[ ] Algorithms with O(N^2) runtime are not worth parallelizing
+
+# 2.
+Deadlock happens when:
+(select one) ---
+[ ] One thread terminates without unlocking a mutex
+[✔️] Two threads are each waiting on a mutex the other has locked
+[ ] A recursive function attempts to lock a mutex multiple times
+[ ] A mutex goes out of scope
+
+# 3. 
+If a race condition can happen in any parallel code, then how do we prevent race conditions from happening inside the implementation of a mutex?
+(string) ---
+By using condition variable. 
+
+# 4. 
+What are the three types of parallelism that the book describes?
+(string) ---
+Data ,pipeline and task parallelism.
+
+# 5.
+C++11 introduced much better support for parallel programming, including a std::mutex type. Read the documentation here: http://www.cplusplus.com/reference/mutex/mutex/?kw=mutex
+
+What is the purpose of the mutex in the code example? (I.e., what operation are they protecting?)
+(string) ---
+Protect the for loop. To avoid different thread using the same i.
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

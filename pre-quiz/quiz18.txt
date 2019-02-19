@@ -1,0 +1,50 @@
+
+# 1.
+There is a *lot* of terminology all at once here.  To get a handle on it, draw a Venn diagram of the following categories, and bring it with you to class.
+  * graph
+  * connected graph
+  * tree
+  * rooted tree
+  * full tree
+  * balanced tree
+  * complete tree
+
+# 2.
+In the binary tree shown in Figure 22.7.a, where would the number 78 go?
+(select one) ---
+[ ] To the right of 43
+[ ] To the left of 59
+[ ] To the right of 59
+[✔️] To the left of 99
+
+# 3.
+If we have the tree: (you'll have to imagine the edges)
+
+            23
+      18          44 
+   3     22    35    78
+    16
+      17
+
+Write the result of printing this tree using an inorder traversal:
+(string) ---
+3 16 17 18 22 23 35 44 78
+
+# 4.
+Write the result of printing the above tree using a preorder traversal:
+(string) ---
+23 18 3 16 17 22 44 35 78
+
+# 5.
+Write the result of printing the above tree using a postorder traversal:
+(string) ---
+17 16 3 22 18 35 78 44 23
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

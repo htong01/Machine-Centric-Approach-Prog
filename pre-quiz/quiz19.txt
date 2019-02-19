@@ -1,0 +1,26 @@
+
+# 1.
+What is the point of a hashing function?  Why not just skip to the H % N part of the hash-table operation? (Look at 23.3)
+(string) ---
+To get different values for different objects.
+Only  H % N will cause much more collisions.
+
+# 2.
+What are the two options the book describes for handling hash collisions?
+(string) ---
+Use chaining, make a linked list to store.
+Open address. Seeking a nearby address not being used.
+
+# 3.
+The chapter mentions prime numbers several times.  Why are prime numbers good/important for hash functions?
+(string) ---
+To minimize collisions since 
+
+# 4.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 5.
+What concepts would you most like to review in class?
+(string) ---

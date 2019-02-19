@@ -1,0 +1,41 @@
+# 1.
+Graph coloring is:
+(select one) --
+[ ] O(N)
+[ ] O(N^2)
+[ ] O(N^3)
+[ ] O(N^4)
+[✔️] O(2^N)
+[ ] Really hard.
+
+# 2.
+Table 25.1 shows that an adjacency list + hash table has Big-O runtimes as good or better than an adjacency matrix in every case.
+Suggest a reason why we might still want to use an adjacency matrix.
+(string) ---
+In same cases when checking if there is a edge between two nodes takes O(1) time for adjacency matrix while O(n) time in adjacency list.
+
+# 3.
+The book describes a generic search algorithm which can operate with different data structures holding the list to edges to examine next.  What kind of search do you get if you use:
+  a. Stack
+  b. Queue
+  c. Priority queue
+
+A. DFS
+B. BFS
+C. Minimum spanning tree 
+
+# 4.
+List at least three algorithms discussed in this chapter which are NP-complete.
+(string) ---
+Graph coloring
+Clique + independent set
+Traveling Salesperson
+
+# 5.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 6.
+What concepts would you most like to review in class?
+(string) ---

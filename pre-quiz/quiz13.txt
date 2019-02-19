@@ -1,0 +1,44 @@
+# 1.
+Which of these are probably suitable for an inheritance relationship?
+[ ] Car : Vehicle
+[ ] Province : Country
+[ T] Butterfly : Moth
+[ ] Sophomore : Student
+[ ] WebPage : WebSite
+
+# 2.
+If `Chimp` inherits from `Primate`, what happens when a new `Chimp` object is created?
+(select one) ---
+[ ] Chimp constructor is called first, then Primate
+[ T] Primate constructor is called first, then Chimp
+[ ] Chip constructor overrides Primate constructor
+[ ] It depends on whether the inheritance is public or private
+
+# 3.
+What is the "static type" of an object (as opposed to the "dynamic type" of an object").
+(string) ---
+It only uses the the declared types of variables.
+
+# 4.
+Why is it important to declare a destructor `virtual` if the class will be used polymorphically?
+(string) ---
+In order to avoid issues with improperly string object.
+
+# 5.
+Which of these are always true for an abstract class?
+(select all that apply) ---
+[ ] It is declared with the keyword `abstract`.
+[ T] All of its methods are virtual
+[ ] None of its methods are virtual
+[ ] All of its virtual methods are abstract
+[ ] At least one of its methods is "pure virtual"
+[ T] It cannot be instantiated with `new`
+
+# 6.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

@@ -1,0 +1,43 @@
+# 1.
+What is the maximum number of threads that a process can create?
+[ ] 4
+[ ] 256
+[ ] 2^32 (on a 32-bit platform)
+[ ] No more the number of CPU cores your processor has (hyper-threading cores count as 2).
+[ T] It depends on the implementation.
+
+# 2.
+Which of the following cause the thread to be terminated?
+(select all that apply) ---
+[ T] The thread function (start_routine) returns
+[ T] The thread calls pthread_exit()
+[ ] Another thread calls pthread_cancel()
+[ T] The program returns from main()
+
+# 3.
+pthread_create only allows passing a single argument.  What does the document suggest doing if multiple parameters need to be passed?
+(select one) ---
+[ ] Use a lambda function
+[ ] Bundle all of the parameters into a struct
+[ ] Pass a void*
+[ T] Treat the parameter as an array, which could contain as many elements as necessary
+
+# 4.
+What happens when pthread_join is called? (assume the thread is join-able)
+(string) ---
+The pthread_join() subroutine blocks the calling thread until the specified threadid thread terminates.
+A joining thread can match one pthread_join call.
+
+# 5.
+In the SDL_AddTimer code example, my_callbackfunc returns a Uint32.  What does this value do, or what is it used for?
+(string) ---
+A 32 bit unsigned integer, time interval pass input to callback
+
+# 6.
+What questions do you have about the material from these readings?
+(string) ---
+
+
+# 7.
+What concepts would you most like to review in class?
+(string) ---

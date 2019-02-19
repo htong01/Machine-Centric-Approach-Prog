@@ -1,0 +1,32 @@
+# 1.
+Why must the implementations for templated functions and classes be defined in a header file, rather than a cpp file?
+(string) ---
+Template definitions must be visible at instantiations. 
+
+# 2.
+Why isn't this code valid?
+  template<int y>
+  int f(int x)
+  {
+    return x*y;
+  }
+
+  for(int i = 0; i < 4; i++){
+    x += f<i>(x);
+  }
+(string) ---
+Variable 'i' is not compile-time constant.
+
+# 3.
+Section 17.3.4 doesn't explain *why* the white space is required.  Make an educated guess why this is the case.
+(string) ---
+Program may take '>>' as output. But actually it's not.
+
+# 4.
+What questions do you have about the material in this chapter?
+(string) ---
+
+
+# 5.
+What concepts would you most like to review in class?
+(string) ---
